@@ -1,23 +1,55 @@
+*{
+    box-sizing: border-box; 
+    margin-top: 10px; 
+    padding: 0;
+}
 body {
-    font-size: 32px;
-}
-.table{
+    font-size: 24px;
+    font-family: 'Encode Sans SC', sans-serif;
     text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
 }
 
+.table{  
+    min-height: 200px;
+}
+.table th{
+    text-align: center;
+    font-size: 32px;
+    width:650px;
+    background-color: #276678;
+    color: white;
+}
+#devSkills tbody{
+    text-align: left;
+    background-color: white;
+    color: rgba(0, 0, 128, 0.671);
+}
+.table td{
+    padding: 5px;
+    border: hidden;
+}
+tbody button{
+    margin-left: 20px;
+    margin-right: 20px;
+}
 
-/* body class="container">
-    <div class="table-responsive">
-    <table id="devSkills" class="table">
-        <thead>
-            <tr>
-                <th>MY DEVELOPER SKILLS</th>
-            </tr>
-        </thead>
-        <tbody>
-        </tbody>
-    </table>
-</div>
-    <div class="userInput">
-        <input type="text" class="skillField"><button class="addSkill">ADD SKILL</button>
-    </div> */
+.skillField{
+    background-color: #F6F5F5;
+    outline: 2px inset #276678;
+    width: 460px;
+    text-align: center;
+    color: teal;
+}
+::placeholder{
+    color: rgba(165, 162, 162, 0.64);
+}
+.addSkill{
+    background-color: #1687A7;
+    color: white;
+    outline: 2px inset #276678;
+    width: 150px;
+    margin-left: 40px;
+}
