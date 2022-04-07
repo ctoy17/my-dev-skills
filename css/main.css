@@ -2,14 +2,14 @@
     box-sizing: border-box; 
     margin-top: 10px; 
     padding: 0;
-}
+    }
 body {
     font-size: 24px;
     font-family: 'Encode Sans SC', sans-serif;
     text-align: center;
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
     align-content: center;
+    margin: auto;
 }
 
 .table{  
@@ -39,7 +39,7 @@ tbody button{
 .skillField{
     background-color: #F6F5F5;
     outline: 2px inset #276678;
-    width: 460px;
+    width:460px;
     text-align: center;
     color: teal;
 }
@@ -50,6 +50,6 @@ tbody button{
     background-color: #1687A7;
     color: white;
     outline: 2px inset #276678;
+    max-width: 150px;
     width: 150px;
-    margin-left: 40px;
 }
